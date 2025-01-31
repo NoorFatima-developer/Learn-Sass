@@ -40,3 +40,9 @@ button {
     text-align: center;
     margin-left: 200px;
 }
+
+// In this line, I want to extend all buttons property in p tag so can use @extend....
+
+p {
+    @extend button;
+}
