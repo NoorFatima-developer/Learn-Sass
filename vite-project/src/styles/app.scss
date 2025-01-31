@@ -5,8 +5,13 @@ $color2: rgb(23, 23, 23);
 $color3: rgb(215, 204, 0);
 $large: 600px;
 
+// Also pass colors as an array like below::after
+$colors: rgb(67, 124, 151), rgb(146, 56, 151);
+
+
 body {
     background-color: $color2;
-    color: $color1;
+    color: nth($colors, 2);
     width: $large;
+    
 }
