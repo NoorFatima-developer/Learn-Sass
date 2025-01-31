@@ -47,8 +47,16 @@ button {
 
 // In this line, I want to extend all buttons property in p tag so can use @extend....
 
-p {
+p1 {
     @extend button;
     // p tag by default block hota hai islye i can make inline by using inline-block...
     display:inline-block
+}
+
+p2 {
+    @extend button;
+}
+
+p3 {
+    @extend button;
 }
