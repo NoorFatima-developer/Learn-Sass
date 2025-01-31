@@ -80,7 +80,12 @@ p1 {
 // and now i can pass any color of my mrzi ya custom color mai sy...
 p2 {
     @include customFunction(color1.$color2);
-    display:inline-block
+    display:inline-block;
+    // And if I wanna give hover to this then can use & for hover like below:
+
+    &:hover {
+        background-color: color1.$orange;
+    }
 }
 
 p3 {
