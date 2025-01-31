@@ -30,3 +30,15 @@ Otherwise I can directly start or atop from terminl at botton bar...
 <!-- 03 -->
 
 This way is used and preferabble with React...
+
+And isklye install command will be :
+
+npm i sass krogi tu React ki pkg.json ki file mai automattically install o jyega..
+
+<!-- Use sass extension vs scss -->
+
+Use sass:
+aghr tu mai app.sass fil use krti o tu iska syntax basically python ki trhan hota hai and it works like python mtlb parent phr child 1 khali space sy b code error dedeta hai..
+
+islye i will use scss:
+and ismai me css ki trhan code likh skti hon...
