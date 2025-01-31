@@ -45,4 +45,6 @@ button {
 
 p {
     @extend button;
+    // p tag by default block hota hai islye i can make inline by using inline-block...
+    display:inline-block
 }
