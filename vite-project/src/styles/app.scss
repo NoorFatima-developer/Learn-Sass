@@ -1,5 +1,5 @@
 // All custom variables in _colors.scss file as a partial...
-
+@import "_colors.scss";
 
 body {
     background-color: $color2;
@@ -12,7 +12,7 @@ body {
 
 .productCard {
     max-width: 600px;
-    background-color: $red;
+    background-color: $orange;
     a {
         color: $blue;
     }
