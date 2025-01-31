@@ -1,0 +1,12 @@
+// Create custom variables::after
+
+$color1: rgb(255,255,74);
+$color2: rgb(23, 23, 23);
+$color3: rgb(215, 204, 0);
+$large: 600px;
+
+body {
+    background-color: color2;
+    color: color1;
+    width: $large;
+}
