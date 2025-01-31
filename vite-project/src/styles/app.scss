@@ -1,5 +1,13 @@
 // All custom variables in _colors.scss file as a partial...
-@import "_colors.scss";
+
+// Jo last pr import hoga wo hi apply hoga..
+// and import purana hogya hai new method hai @use and hum osko module ki trhan use krty hain and object ki
+// trhan access krskty hain...
+// @import "_colors.scss";
+// @import "_color2.scss";
+
+@use "_colors.scss";
+@use "_color2.scss";
 
 body {
     background-color: $color2;
