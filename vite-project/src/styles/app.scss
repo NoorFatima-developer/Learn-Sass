@@ -6,7 +6,7 @@ $color3: rgb(215, 204, 0);
 $large: 600px;
 
 body {
-    background-color: color2;
-    color: color1;
+    background-color: $color2;
+    color: $color1;
     width: $large;
 }
