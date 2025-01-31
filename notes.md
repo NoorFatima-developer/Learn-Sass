@@ -11,4 +11,18 @@ body
 
 lkin ab browser is file ko essy read ni krskta tu mjy terminal pr command sy isko read krwana pryga like this:
 
-sass -w app.sass -o app.css (ab browser isko read/watch krskyga and it will work good...)
+sass -w app.sass app.css (ab browser isko read/watch krskyga and it will work good...)
+
+
+<!-- 02 -->
+
+Install Live Sass Compiler extension from vscode...
+
+And use Ctrl shift P command and write this:
+
+Live Sass: Watch Sass(then watch sass will show in vscode at bottom bar...)
+And if we wanna stop watching Sass then we can again use this Ctrl shift P command and 
+again write this command:
+Live Sass: Watch Sass and click on stop watching Sass then Sass will be stop.
+
+Otherwise I can directly start or atop from terminl at botton bar...
