@@ -64,8 +64,9 @@ p1 {
 
 // Mixin basically function ki trhan work krta hai and isk andr hum variables pass krskty hain
 // jesy simply function mai krty hain and then can by using it like that::after
+// ye meny red as a default color dea hai ta k aghr user koi koi color add na dy nichy p mai tu default color red o jye and error na aye...
 
-@mixin customFunction($color) {
+@mixin customFunction($color: red) {
     background-color: $color;
     padding: 1rem 2rem;
     color: white;
