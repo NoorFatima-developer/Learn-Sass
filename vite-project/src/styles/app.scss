@@ -27,3 +27,16 @@ body {
         color: color1.$pink;
     }
 }
+
+// 
+
+button {
+    background-color: color2.$pink;
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 200px;
+}
