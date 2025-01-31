@@ -54,12 +54,35 @@ p1 {
     display:inline-block
 }
 
+// Ab manlo k mai button ki properties p mai simply access krksti hon using @extend..
+// but aghr i want k mai in sbka color bg color change krna chahti o then??
+// 1 tu way hai k mai simply hr 1 mai manually background-color: '' change krdo..
+// but its no a good approach so for that, I can use @mixin..
+
+
+// What is mixin ????🤔💭
+
+// Mixin basically function ki trhan work krta hai and isk andr hum variables pass krskty hain
+// jesy simply function mai krty hain and then can by using it like that::after
+
+@mixin customFunction($color) {
+    background-color: $color;
+    padding: 1rem 2rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+// and now i can pass any color of my mrzi ya custom color mai sy...
 p2 {
-    @extend button;
+    @include customFunction(color1.$color2);
     display:inline-block
 }
 
 p3 {
-    @extend button;
+    @include customFunction(color2.$color3);
     display:inline-block
 }
