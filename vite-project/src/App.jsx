@@ -6,7 +6,9 @@ const App = () => {
       <h2>Sample</h2>
       <a>Sample Link</a><br />
       <button>Click 01</button>
-      <p>Click 02</p>
+      <p1 className="p1">Click 02</p1>
+      <p2 className="p2">Click 02</p2>
+      <p3 className="p3">Click 02</p3>
     </div>
   )
 }
