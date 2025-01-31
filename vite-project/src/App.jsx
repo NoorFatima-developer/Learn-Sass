@@ -5,7 +5,8 @@ const App = () => {
     <div className="productCard">
       <h2>Sample</h2>
       <a>Sample Link</a><br />
-      <button>Submit</button>
+      <button>Click 01</button>
+      <p>Click 02</p>
     </div>
   )
 }
