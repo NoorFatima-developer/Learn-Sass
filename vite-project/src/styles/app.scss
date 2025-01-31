@@ -96,5 +96,7 @@ p2 {
 
 p3 {
     @include customFunction(color2.$color3);
-    display:inline-block
+    display:inline-block;
+    // use operator:
+    width: $w * 6;
 }
