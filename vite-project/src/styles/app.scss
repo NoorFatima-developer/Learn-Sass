@@ -2,29 +2,28 @@
 
 // Jo last pr import hoga wo hi apply hoga..
 // and import purana hogya hai new method hai @use and hum osko module ki trhan use krty hain and object ki
-// trhan access krskty hain...
+// trhan access krskty hain using color.$red or anycolor etc...  ...
 // @import "_colors.scss";
 // @import "_color2.scss";
 
-@use "_colors.scss";
-@use "_color2.scss";
+@use "_colors.scss" as color1;
+@use "_color2.scss" as color2;
 
 body {
-    background-color: $color2;
-    color: nth($colors, 2);
-    width: $large;
-    
+    background-color: color1.$color2;
+    color: nth(color1.$colors, 2);
+    width: color2.$large;  
 }
 
 // Can do nesting in sass like below:
 
 .productCard {
     max-width: 600px;
-    background-color: $orange;
+    background-color: color1.$orange;
     a {
-        color: $blue;
+        color: color2.$blue;
     }
     > h2{
-        color: $pink;
+        color: color1.$pink;
     }
 }
