@@ -23,11 +23,11 @@ body {
 
 .productCard {
     max-width: 600px;
-    background-color: red;
+    background-color: $red;
     a {
-        color: blue;
+        color: $blue;
     }
     > h2{
-        color: pink;
+        color: $pink;
     }
 }
